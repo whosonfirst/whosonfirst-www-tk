@@ -40,6 +40,7 @@ setup:
 	ubuntu/setup-certified.sh
 	sudo ubuntu/setup-certified-ca.sh
 	sudo ubuntu/setup-certified-certs.sh
+	ubuntu/setup-apache-conf.sh
 	bin/configure_secrets.sh .
 	ubuntu/setup-db.sh $(DBNAME) $(DBUSER)
 

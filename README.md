@@ -8,5 +8,7 @@
 
 ## To do list
 
+* Rename `apache/whosonfirst-www-tk.conf.example`
+* Update `Makefile` to set `DBNAME` and `DBUSER`
 * Add a new [OAuth application](https://mapzen.com/oauth/applications) (remember the trailing slash in the redirect URL!)
-* Set `X-Proxy-Path` header in nginx
+* Make sure the `X-Proxy-Path` header is set properly in nginx
